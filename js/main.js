@@ -147,7 +147,6 @@ function getTodos() {
         deleted.classList.add("delete-btn", `${savedTheme}-button`);
         toDoDiv.appendChild(deleted);
 
-        // Append to list;
         toDoList.appendChild(toDoDiv);
     });
 }
