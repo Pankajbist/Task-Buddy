@@ -109,16 +109,12 @@ body {
 #title.darker-title {
     animation: animated-text 2s steps(11,end) 0.5s 1 normal both, darker-animated-cursor 750ms steps(11,end) infinite;
 }
-  
-  /* text animation */
-  
+
   @keyframes animated-text{
     from{width: 0%;}
     to{width: 480px;}
   }
-  
-  /* cursor animations */
-  
+
   @keyframes animated-cursor{
     from{border-right-color: rgba(0, 0, 0, 0.75);}
     to{border-right-color: transparent;}
@@ -378,3 +374,6 @@ form button {
         box-shadow: 0 0 5px lightgray;
     }
 }
+
+
+
